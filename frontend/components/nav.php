@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,7 +38,7 @@
 <body>
 
     <div class="topnav">
-        <img src="logo.png" alt="logo" height="50px">
+        <img src="components/logo.jpg" alt="logo" height="50px">
         <a href="#news">Pharmacy Name</a>
     </div>
 </body>
