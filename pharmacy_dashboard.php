@@ -1,4 +1,4 @@
 <?php
-include('localhost/login2/auth.php');
+require_once __DIR__."auth.php" ;
 include('components/nav.php');
 include('components/sidenav.php');

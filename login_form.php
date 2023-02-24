@@ -67,7 +67,7 @@
                     res = JSON.parse(res);
                     if (res['status']) // if login successful redirect user to secure.php page.
                     {
-                        location.href = "http://localhost/login2/frontend/pharmacy_dashboard.php"; // redirect user to dashboard.php location/page.
+                        location.href = "dashboard.php"; // redirect user to dashboard.php location/page.
                     } else {
 
                         var errorMessage = '';
