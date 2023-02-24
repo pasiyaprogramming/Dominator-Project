@@ -1,0 +1,110 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(270deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  -o-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+  background-size: 800% 800%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.global-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  padding-top: 10px;
+  font-size: 14px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+
+.card-title {
+  font-weight: 300;
+}
+
+.btn {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.login-form {
+  width: 330px;
+  margin: 20px;
+}
+
+.sign-up {
+  text-align: center;
+  padding: 20px 0 0;
+}
+
+.alert {
+  margin-bottom: -30px;
+  font-size: 13px;
+  margin-top: 20px;
+}
