@@ -68,7 +68,7 @@ if (isset($_POST["phname"]) && isset($_POST["email"]) && isset($_POST["addr"]) &
 	$stmt->bindParam(':uemail', $email); //pass the email from user input to sql statement
 	$stmt->bindParam(':uaddr', $address);
 	$stmt->bindParam(':uphno', $phonenumber);
-	$stmt->bindParam(':uphlicense', $pharmacylicenseno);
+	$stmt->bindParam(':uphlicenseno', $pharmacylicenseno);
 	$stmt->bindParam(':upassword', $password); //pass the password from user input to sql statement
 
 	//send errors to front-end from the backend
